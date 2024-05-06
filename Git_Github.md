@@ -20,3 +20,8 @@
      * 本地库关联远程库：`git remote add origin git@github.com:username/repo.git`
      * 本地推送到远程（第一次）: `git push -u origin master` 第一次使用加上了-u参数，是推送内容并关联分支。
      * 之后：`git push origin master`
+## 问题：每次从本地向github推送时总是需要输入用户名和密码
+* 原因：在clone项目时使用了https方式而不是ssh方式
+* 解决方法：将remote的https方式更改为ssh方式
+  1. `git remote rm origin`
+  2. `git remote add origin git地址`

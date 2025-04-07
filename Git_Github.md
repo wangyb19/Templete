@@ -11,7 +11,7 @@
 6. 测试是否成功：`ssh -T git@github.com`
 7. 远程库与本地库之间的操作
    * 远程	=> 本地
-     * `git clone https://github.com/username/reop.git`
+     * `git clone git@github.com:wangyb19/Python.git`
      * `cd reop`
      * `edit`
      * `git add .`
